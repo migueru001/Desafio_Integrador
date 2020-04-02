@@ -1,0 +1,338 @@
+@charset "UTF-8";
+/*--------------Aquí empieza operaciones----------------*/
+/*--------------Aquí terminan las operaciones----------------*/
+/*--------------Aquí empieza estilos tipograficos----------------*/
+h1 {
+  font-family: "Quicksand";
+  font-weight: 100;
+  font-size: 45px;
+  text-align: center;
+  color: white;
+  animation-duration: 3s;
+  animation-name: titulouno; }
+
+h1:hover {
+  color: deepskyblue; }
+
+h2 {
+  font-family: "Quicksand";
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+  color: white; }
+
+h2:hover {
+  color: deepskyblue; }
+
+h3 {
+  font-family: "Quicksand";
+  font-weight: 400;
+  font-size: 20px;
+  color: white; }
+
+h3:hover {
+  color: deepskyblue; }
+
+a {
+  font-family: "Quicksand";
+  font-weight: 600;
+  font-size: 25px;
+  color: #002091;
+  text-align: center; }
+
+a:hover {
+  color: deepskyblue; }
+
+p {
+  font-family: "Quicksand";
+  font-weight: 600;
+  font-size: 18px;
+  color: white; }
+
+p:hover {
+  color: deepskyblue; }
+
+li {
+  font-family: "Quicksand";
+  font-weight: 600;
+  font-size: 18px;
+  color: white; }
+
+li:hover {
+  color: deepskyblue; }
+
+dt {
+  font-family: "Quicksand";
+  font-weight: 600;
+  font-size: 18px;
+  color: white; }
+
+dt:hover {
+  color: deepskyblue; }
+
+dd {
+  font-family: "Quicksand";
+  font-weight: 600;
+  font-size: 16px;
+  color: white; }
+
+dd:hover {
+  color: deepskyblue; }
+
+.CallToAction {
+  font-family: "Quicksand";
+  font-weight: 600;
+  font-size: 80px;
+  color: white;
+  position: relative;
+  top: -50px; }
+
+.Titulos__Franjas {
+  font-family: "Quicksand";
+  font-weight: 600;
+  font-size: 25px;
+  color: #002091; }
+
+#Blanco {
+  color: white; }
+
+#Blanco:hover {
+  color: deepskyblue; }
+
+.formulario {
+  font-family: "Quicksand";
+  color: white;
+  font-weight: 400;
+  font-size: 16px; }
+
+@keyframes titulouno {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+/*--------------Aquí termina estilos tipograficos----------------*/
+body {
+  margin: 0 auto;
+  width: 1366px; }
+  body header {
+    width: 1366px;
+    height: 280px;
+    padding-top: 60px;
+    background: #001e46;
+    background: linear-gradient(180deg, #001e46 0%, #0034cc 100%);
+    transition: height 1s; }
+    body header nav {
+      padding: 10px;
+      width: 1346px;
+      height: 70px;
+      background-color: white;
+      position: relative;
+      top: 75px;
+      transition: height 1s; }
+      body header nav .menu {
+        display: inline-block;
+        width: 23%;
+        height: 40px;
+        padding: none;
+        text-align: center; }
+  body header:hover {
+    height: 450px; }
+  body nav:hover {
+    height: 120px; }
+  body section {
+    margin: none;
+    width: 1366px;
+    padding: none;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #001e46; }
+    body section .section__franja {
+      background-color: white;
+      display: inline-block;
+      width: 1346px;
+      height: 70px;
+      padding: 10px;
+      margin-bottom: 30px;
+      transition: height 1s; }
+    body section .section__franja:hover {
+      height: 120px; }
+    body section .sectionpadre01 {
+      width: 100%;
+      background: none; }
+      body section .sectionpadre01 .section__hijo01 {
+        background-color: none;
+        display: inline-block;
+        width: 94%;
+        height: 250px;
+        padding: 20px;
+        margin: 15px;
+        transition: height 1s; }
+      body section .sectionpadre01 .section__hijo01:hover {
+        height: 500px; }
+      body section .sectionpadre01 .section__imagen01 {
+        display: inline-block;
+        width: 615px;
+        height: 400px;
+        padding: none;
+        margin: 15px;
+        margin-left: 40px;
+        margin-right: 30px;
+        margin-bottom: 120px; }
+      body section .sectionpadre01 .section__imagen02 {
+        display: inline-block;
+        width: 615px;
+        height: 400px;
+        padding: none;
+        margin: 15px;
+        margin-bottom: 120px; }
+      body section .sectionpadre01 .section__hijo02 {
+        background-color: #0034cc;
+        display: inline-block;
+        width: 94%;
+        height: 400px;
+        padding: 20px;
+        margin: 15px;
+        transition: height 1s; }
+      body section .sectionpadre01 .section__hijo02:hover {
+        height: 600px; }
+      body section .sectionpadre01 .section__hijo03 {
+        background-color: #0034cc;
+        display: inline-block;
+        width: 94%;
+        height: 400px;
+        padding: 20px;
+        padding-top: 40px;
+        margin: 15px;
+        transition: height 1s; }
+      body section .sectionpadre01 .section__hijo03:hover {
+        height: 600px; }
+      body section .sectionpadre01 .section__hijo04 {
+        background-color: #0034cc;
+        display: inline-block;
+        width: 94%;
+        height: 300px;
+        padding: 20px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        text-align: center;
+        transition: height 1s; }
+      body section .sectionpadre01 .section__hijo04:hover {
+        height: 600px; }
+    body section .section__padreNews {
+      width: 1286px;
+      padding: 40px;
+      background-color: none; }
+      body section .section__padreNews .section__hijoNews01 {
+        background-color: none;
+        width: 600px;
+        height: 200px;
+        display: inline-block;
+        padding: 20px; }
+      body section .section__padreNews .section__hijoNews02 {
+        background-color: none;
+        width: 400px;
+        height: 200px;
+        display: inline-block;
+        padding: 20px;
+        margin-left: 50px;
+        position: relative;
+        top: -20px; }
+      body section .section__padreNews .section__hijoNewsimagen01 {
+        background-color: white;
+        display: inline-block;
+        padding-left: 0px;
+        width: 200px;
+        height: 250px;
+        margin-bottom: 50px; }
+      body section .section__padreNews .section__hijoNewsimagen02 {
+        background-color: white;
+        width: 200px;
+        height: 250px;
+        display: inline-block;
+        padding-left: 0px;
+        margin-left: 40px;
+        margin-bottom: 50px; }
+      body section .section__padreNews .section__hijoNewsimagen03 {
+        background-color: white;
+        width: 200px;
+        height: 250px;
+        display: inline-block;
+        padding-left: 0px;
+        margin-left: 40px;
+        margin-bottom: 50px; }
+      body section .section__padreNews .section__hijoNewsimagen04 {
+        background-color: white;
+        width: 200px;
+        height: 250px;
+        display: inline-block;
+        padding-left: 0px;
+        margin-left: 40px;
+        margin-bottom: 50px; }
+    body section .section__video {
+      background: none;
+      width: 320px;
+      height: 320px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-right: 8px;
+      padding-left: 8px;
+      display: inline-block; }
+    body section .section__contacto__padre {
+      background: #001e46;
+      background: linear-gradient(180deg, #001e46 0%, #0034cc 100%);
+      width: 450px;
+      padding: 40px;
+      position: relative;
+      left: 420px; }
+  body footer {
+    margin: none;
+    width: 1366px;
+    padding: none;
+    padding-top: 45px;
+    background: #0034cc;
+    position: relative; }
+    body footer .footer__hijo01 {
+      background-color: blue;
+      display: inline-block;
+      width: 20%;
+      height: 200px;
+      padding: 20px;
+      padding-top: 40px;
+      margin: 15px;
+      transition: height 1s; }
+    body footer .footer__hijo01:hover {
+      height: 400px; }
+    body footer .footer__hijo02 {
+      background-color: blue;
+      display: inline-block;
+      width: 20%;
+      height: 200px;
+      padding: 20px;
+      padding-top: 40px;
+      margin: 15px;
+      transition: height 1s; }
+    body footer .footer__hijo02:hover {
+      height: 400px; }
+    body footer .footer__hijo03 {
+      background-color: blue;
+      display: inline-block;
+      width: 20%;
+      height: 200px;
+      padding: 20px;
+      padding-top: 40px;
+      margin: 15px;
+      transition: height 1s; }
+    body footer .footer__hijo03:hover {
+      height: 400px; }
+    body footer .irAlInicio {
+      background-color: none;
+      width: 1326px;
+      height: 80px;
+      padding: 20px;
+      display: block;
+      text-align: center;
+      transition: height 1s; }
+    body footer .irAlInicio:hover {
+      height: 160px; }

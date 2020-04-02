@@ -1,0 +1,420 @@
+/*--------------Aquí empieza operaciones----------------*/
+$blanco: white;
+$colorazul: rgb(0,30,70);
+$colorazul02: rgb(0,52,204);
+$azulfooter: blue;
+$colorhovertext:deepskyblue;
+/*--------------Aquí terminan las operaciones----------------*/
+
+
+/*--------------Aquí empieza estilos tipograficos----------------*/
+h1 {
+  font-family: 'Quicksand' ;
+  font-weight: 100;
+  font-size: 45px;
+  text-align: center;
+  color: $blanco;
+  animation-duration: 3s;
+  animation-name: titulouno;
+ }
+
+h1:hover {
+  color: $colorhovertext;
+}
+
+h2 {
+  font-family: 'Quicksand' ;
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+  color: $blanco;
+ }
+
+h2:hover {
+  color: $colorhovertext;
+}
+
+h3 {
+  font-family: 'Quicksand' ;
+  font-weight: 400;
+  font-size: 20px;
+  color: $blanco;
+ }
+
+h3:hover {
+  color: $colorhovertext;
+}
+
+a {
+  font-family: 'Quicksand' ;
+  font-weight: 600;
+  font-size: 25px;
+  color: #002091;
+  text-align: center;
+ }
+
+a:hover {
+  color: $colorhovertext;
+}
+
+p {
+
+  font-family: 'Quicksand' ;
+  font-weight: 600;
+  font-size: 18px;
+  color: $blanco;
+
+}
+
+p:hover {
+  color: $colorhovertext;
+}
+
+li {
+  font-family: 'Quicksand' ;
+  font-weight: 600;
+  font-size: 18px;
+  color: $blanco;
+}
+
+li:hover {
+  color: $colorhovertext;
+}
+
+dt {
+  font-family: 'Quicksand' ;
+  font-weight: 600;
+  font-size: 18px;
+  color: $blanco;
+}
+
+dt:hover {
+  color: $colorhovertext;
+}
+
+dd {
+  font-family: 'Quicksand' ;
+  font-weight: 600;
+  font-size: 16px;
+  color: $blanco;
+}
+
+dd:hover {
+  color: $colorhovertext;
+}
+
+.CallToAction {
+  font-family: 'Quicksand' ;
+  font-weight: 600;
+  font-size: 80px;
+  color: white;
+  position: relative;
+  top: -50px;
+}
+
+.Titulos__Franjas {
+  font-family: 'Quicksand' ;
+  font-weight: 600;
+  font-size: 25px;
+  color: #002091;
+}
+
+#Blanco {
+  color: $blanco;
+}
+
+#Blanco:hover {
+  color: $colorhovertext;
+}
+
+.formulario {
+  font-family: 'Quicksand' ;
+  color: $blanco;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+@keyframes titulouno {
+   0% {
+     opacity: 0;
+   }
+   100% {
+     opacity: 1;
+   }
+}
+
+/*--------------Aquí termina estilos tipograficos----------------*/
+
+
+body {
+  margin: 0 auto;
+  width: 1366px;
+  header {
+    width:  1366px;
+    height: 280px;
+    padding-top: 60px;
+    background: rgb(0,30,70);
+    background: linear-gradient(180deg, rgba(0,30,70,1) 0%, rgba(0,52,204,1) 100%);
+    transition: height 1s;
+    nav {
+      padding: 10px;
+      width:  1346px;
+      height: 70px;
+      background-color: $blanco;
+      position: relative;
+      top:75px;
+      transition: height 1s;
+      .menu {
+        display: inline-block;
+        width: 23%;
+        height: 40px;
+        padding: none;
+        text-align: center; 
+      }
+    }
+  }
+header:hover {
+  height: 450px;
+  }
+nav:hover {
+  height: 120px;
+}
+  section {
+    margin: none;
+    width: 1366px;
+    padding: none;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: $colorazul;
+    .section__franja {
+      background-color: $blanco;
+      display: inline-block;
+      width: 1346px;
+      height:70px;
+      padding: 10px;
+      margin-bottom: 30px;
+      transition: height 1s;
+    }
+    .section__franja:hover {
+      height: 120px;
+    }
+    .sectionpadre01 {
+      width: 100%;
+      background: none;
+      .section__hijo01 {
+        background-color: none;
+        display: inline-block;
+        width: 94%;
+        height:250px;
+        padding: 20px;
+        margin: 15px;
+        transition: height 1s;
+      }
+      .section__hijo01:hover {
+        height: 500px;
+      }
+      .section__imagen01 {
+        display: inline-block;
+        width: 615px;
+        height:400px;
+        padding: none;
+        margin: 15px;
+        margin-left: 40px;
+        margin-right: 30px;
+        margin-bottom: 120px;
+      }
+      .section__imagen02 {
+        display: inline-block;
+        width: 615px;
+        height:400px;
+        padding: none;
+        margin: 15px;
+        margin-bottom: 120px;
+      }
+      .section__hijo02 {
+        background-color: $colorazul02;
+        display: inline-block;
+        width: 94%;
+        height:400px;
+        padding: 20px;
+        margin: 15px;
+        transition: height 1s;
+      }
+      .section__hijo02:hover {
+        height: 600px;
+      }
+      .section__hijo03 {
+        background-color: $colorazul02;
+        display: inline-block;
+        width: 94%;
+        height:400px;
+        padding: 20px;
+        padding-top: 40px;
+        margin: 15px;
+        transition: height 1s;
+      }
+      .section__hijo03:hover {
+        height: 600px;
+      }
+      .section__hijo04 {
+        background-color: $colorazul02;
+        display: inline-block;
+        width: 94%;
+        height:300px;
+        padding: 20px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        text-align: center;
+        transition: height 1s;
+      }
+      .section__hijo04:hover {
+        height: 600px;
+      }
+    }
+    .section__padreNews {
+      width: 1286px;
+      padding: 40px;
+      background-color:none;
+      .section__hijoNews01 {
+        background-color: none;
+        width: 600px;
+        height: 200px;
+        display: inline-block;
+        padding: 20px;
+      }
+      .section__hijoNews02 {
+        background-color: none;
+        width: 400px;
+        height: 200px;
+        display: inline-block;
+        padding: 20px;
+        margin-left: 50px; 
+        position: relative;
+        top: -20px;
+      }
+      .section__hijoNewsimagen01 {
+        background-color: $blanco;
+        display: inline-block;
+        padding-left: 0px;
+        width: 200px;
+        height:250px;
+        margin-bottom: 50px;
+      }
+      .section__hijoNewsimagen02 {
+        background-color: $blanco;
+        width: 200px;
+        height:250px;
+        display: inline-block;
+        padding-left: 0px;
+        margin-left: 40px;
+        margin-bottom: 50px;
+      }
+      .section__hijoNewsimagen03 {
+        background-color: $blanco;
+        width: 200px;
+        height:250px;
+        display: inline-block;
+        padding-left: 0px;
+        margin-left: 40px;
+        margin-bottom: 50px;
+      }
+      .section__hijoNewsimagen04 {
+        background-color: $blanco;
+        width: 200px;
+        height:250px;
+        display: inline-block;
+        padding-left: 0px;
+        margin-left: 40px;
+        margin-bottom: 50px;
+      }
+    }
+    .section__video {
+      background: none;
+      width: 320px;
+      height: 320px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-right:8px;
+      padding-left:8px;
+      display: inline-block;
+    }
+    .section__contacto__padre {
+      background: $colorazul;
+      background: linear-gradient(180deg, rgba(0,30,70,1) 0%, rgba(0,52,204,1) 100%);
+      width: 450px;
+      padding: 40px;
+      position: relative;
+      left: 420px;
+    }
+  }
+  footer {
+    margin: none;
+    width: 1366px;
+    padding: none;
+    padding-top: 45px;
+    background: $colorazul02;
+    position: relative;
+    .footer__hijo01 {
+      background-color: $azulfooter;
+      display: inline-block;
+      width: 20%;
+      height:200px;
+      padding: 20px;
+      padding-top: 40px;
+      margin: 15px;
+      transition: height 1s;
+    }
+    .footer__hijo01:hover {
+      height: 400px;
+    }
+    .footer__hijo02 {
+      background-color: $azulfooter;
+      display: inline-block;
+      width: 20%;
+      height:200px;
+      padding: 20px;
+      padding-top: 40px;
+      margin: 15px;
+      transition: height 1s;
+    }
+    .footer__hijo02:hover {
+      height: 400px;
+    }
+    .footer__hijo03 {
+      background-color: $azulfooter;
+      display: inline-block;
+      width: 20%;
+      height:200px;
+      padding: 20px;
+      padding-top: 40px;
+      margin: 15px;
+      transition: height 1s;
+    }
+    .footer__hijo03:hover {
+      height: 400px;
+    }
+    .irAlInicio {
+      background-color: none;
+      width: 1326px;
+      height: 80px;
+      padding: 20px;
+      display: block;
+      text-align: center;
+      transition: height 1s;
+    }
+    .irAlInicio:hover {
+      height:160px;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
